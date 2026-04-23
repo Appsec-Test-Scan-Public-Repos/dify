@@ -94,8 +94,8 @@ importers:
         specifier: ^0.30.0
         version: 0.30.0
       '@lexical/utils':
-        specifier: ^0.30.0
-        version: 0.30.0
+        specifier: ^0.42.0
+        version: 0.42.0
       '@mdx-js/loader':
         specifier: ^3.1.0
         version: 3.1.0(acorn@8.15.0)(webpack@5.100.2(esbuild@0.25.0)(uglify-js@3.19.3))
@@ -2054,6 +2054,9 @@ packages:
   '@lexical/selection@0.30.0':
     resolution: {integrity: sha512-Ys2XfSmIV/Irg6Xo663YtR4jozIv/7sDemArkEGHT0fxZn2py5qftowPF5IBqFYxKTigAdv5vVPwusBvAnLIEg==}
 
+  '@lexical/selection@0.42.0':
+    resolution: {integrity: sha512-iWTjLA5BSEuUnvWe9Xwu9FSdZFl3Yi0NqalabXKI+7KgCIlIVXE74y4NvWPUSLkSCB/Z1RPKiHmZqZ1vyu/yGQ==}
+
   '@lexical/table@0.30.0':
     resolution: {integrity: sha512-XPCIMIGnZLKTa5/4cP16bXbmzvMndPR273HNl7ZaF35ky7UjZxdj42HBbE7q9zw2zbRPDiO77EyhYA0p20cbdw==}
 
@@ -2062,6 +2065,9 @@ packages:
 
   '@lexical/utils@0.30.0':
     resolution: {integrity: sha512-VJlAUhupCZmnbYYX3zMWovd4viu2guR01sAqKGbbOMbP+4rlaymixFbinvNPaRKDBloOARi+fpiveQFxnyr/Ew==}
+
+  '@lexical/utils@0.42.0':
+    resolution: {integrity: sha512-wGNdCW3QWEyVdFiSTLZfFPtiASPyYLcekIiYYZmoRVxVimT/jY+QPfnkO4JYgkO7Z70g/dsg9OhqyQSChQfvkQ==}
 
   '@lexical/yjs@0.30.0':
     resolution: {integrity: sha512-mWGFAGpUPz4JoSV+Y0cZOzOZJoMLbVb/enldxEbV0xX71BBVzD0c0vjPxuaIJ9MtNkRZdK3eOubj+B45iOECtw==}
@@ -5949,6 +5955,9 @@ packages:
 
   lexical@0.30.0:
     resolution: {integrity: sha512-6gxYeXaJiAcreJD0whCofvO0MuJmnWoIgIl1w7L5FTigfhnEohuCx2SoI/oywzfzXE9gzZnyr3rVvZrMItPL8A==}
+
+  lexical@0.42.0:
+    resolution: {integrity: sha512-GY9Lg3YEIU7nSFaiUlLspZ1fm4NfIcfABaxy9nT+fRVDkX7iV005T5Swil83gXUmxFUNKGal3j+hUxHOUDr+Aw==}
 
   lib0@0.2.114:
     resolution: {integrity: sha512-gcxmNFzA4hv8UYi8j43uPlQ7CGcyMJ2KQb5kZASw6SnAKAf10hK12i2fjrS3Cl/ugZa5Ui6WwIu1/6MIXiHttQ==}
@@ -10058,6 +10067,10 @@ snapshots:
     dependencies:
       lexical: 0.30.0
 
+  '@lexical/selection@0.42.0':
+    dependencies:
+      lexical: 0.42.0
+
   '@lexical/table@0.30.0':
     dependencies:
       '@lexical/clipboard': 0.30.0
@@ -10074,6 +10087,11 @@ snapshots:
       '@lexical/selection': 0.30.0
       '@lexical/table': 0.30.0
       lexical: 0.30.0
+
+  '@lexical/utils@0.42.0':
+    dependencies:
+      '@lexical/selection': 0.42.0
+      lexical: 0.42.0
 
   '@lexical/yjs@0.30.0(yjs@13.6.27)':
     dependencies:
@@ -14825,6 +14843,8 @@ snapshots:
       type-check: 0.4.0
 
   lexical@0.30.0: {}
+
+  lexical@0.42.0: {}
 
   lib0@0.2.114:
     dependencies:
